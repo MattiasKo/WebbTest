@@ -1,13 +1,125 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navigation {
+  text-align: center;
+  background-color: black;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: rgb(21, 46, 19);
 }
+
+.navigation li {
+  display: inline-flex;
+  padding: 2%;
+}
+
+.logo {
+  text-align: center;
+  background-image: linear-gradient(rgb(184, 255, 53), rgb(18, 48, 15));
+  font-size: 50px;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(55, 170, 44);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(247, 255, 140);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(237, 255, 233);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.listcontainer {
+  display: flex;
+  background-color: rgb(41, 85, 45);
+  padding: 5px;
+}
+
+.listcontainer>div {
+  font-size: 150%;
+  background-color: rgb(209, 209, 209);
+  margin: 10px;
+  padding: 20px;
+}
+
+.flexcontainer>div {
+  font-size: 150%;
+  background-color: rgb(209, 209, 209);
+  margin: 10px;
+  padding: 20px;
+}
+
+.flexcontainer>div {
+  font-size: 150%;
+  background-color: rgb(209, 209, 209);
+  margin: 10px;
+  padding: 20px;
+}
+
+.flexcontainer {
+  background-color: rgb(41, 85, 45);
+}
+
+.selected {
+  color: rgb(209, 209, 209);
+}
+
+@media only screen and (min-width: 850px) {
+  .flexcontainer {
+    display: flex;
+  }
+}
+
+
+
+@media only screen and (max-width: 750px) {
+  .navigation {
+    column-count: 1;
+  }
+}
+
+footer {
+  font-size: larger;
+  color: rgb(209, 209, 209);
+  text-align: center;
+  bottom: 0;
+  left: 50%;
+
+}
+
+/*
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(50, 0, 0);
+  background-color: rgba(50, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #ffa285;
+  margin: auto;
+  padding: 20px;
+  border: 10px solid rgb(88, 0, 0);
+  width: 80%;
+}
+*/
