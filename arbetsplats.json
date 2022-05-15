@@ -1,0 +1,34 @@
+[
+    {
+        "Id": 1,
+        "arbetsplats": "Gekås sönneräng",
+        "jstart": "2016-06-01",
+        "jslut": "2021-09-12",
+        "SysGrad": "Heltid",
+        "Om": "Körde truck och plockade ordrar"
+    },
+    {
+        "Id": 2,
+        "arbetsplats": "Student consulting",
+        "jstart": "2015-04-01",
+        "jslut": "2015-09-12",
+        "SysGrad": "Deltid",
+        "Om": "Plocka och packa ordrar"
+    },
+    {
+        "Id": 3,
+        "arbetsplats": "Starvault AB",
+        "jstart": "2010-06-01",
+        "jslut": "2015-06-01",
+        "SysGrad": "Heltid",
+        "Om": "Concept artist, grafiskt design"
+    },
+    {
+        "Id": 4,
+        "arbetsplats": "Industri support värmland",
+        "jstart": "2008-06-01",
+        "jslut": "2010-06-01",
+        "SysGrad": "Heltid",
+        "Om": "Mangnaflux och fräsning"
+    }
+]
